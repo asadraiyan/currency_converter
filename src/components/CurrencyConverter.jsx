@@ -27,6 +27,7 @@ const CurrencyConverter = () => {
   useEffect(() => {
     fetchCurrencies();
   }, []);
+  console.log(currencies);
 
   //conversion logic
   const convertCurrency = async () => {
